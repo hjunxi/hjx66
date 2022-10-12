@@ -1,0 +1,156 @@
+/* 登录弹出框样式 */
+
+
+.divLayer {
+  left: 0px;
+  top: 0px;
+  background: #333;
+  position: fixed;
+  z-index: 99998;
+  filter: alpha(opacity=40);
+  opacity: .4;
+}
+#loginPopWin {
+  width: 568px;
+  padding: 33px 42px 40px;
+  background: url('../images/log_bg.jpg') no-repeat left top;
+}
+.popWindow {
+  position: fixed;
+  z-index: 100000;
+  width: 433px;
+}
+#regCont, #logCont {
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+#logCont .log_top {
+  padding-bottom: 40px;
+}
+#loginPopWin .top {
+  position: relative;
+  /* padding-bottom: 35px; */
+  line-height: 16px;
+  letter-spacing: 1px;
+  font-size: 16px;
+  color: #fff;
+}
+#loginPopWin .closed {
+/*  position: absolute;
+ top: -2px;
+  right: -2px; */
+  float: right;
+  width: 18px;
+  height: 18px;
+  background: url('../images/icon.png');
+  background-position: 0 -469px;
+  cursor: pointer;
+}
+
+
+#loginPopWin .leftRig {
+  width: 264px;
+  position: relative;
+}
+.itemLog {
+  position: relative;
+  width: 264px;
+  margin-bottom: 10px;
+}
+.itemLog>input {
+  vertical-align: middle;
+  letter-spacing: 1px;
+	background-color: rgba(255,255,255,0.7);
+  
+  height: 20px;
+  width: 244px;
+  padding: 10px;
+}
+
+.fl {
+  float: left;
+}
+.fr{
+	float: right;
+}
+.clr {
+  display: block;
+  overflow: hidden;
+  clear: both;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+}
+#logCont .leftRig .inp_butt {
+  margin-top: 19px;
+}
+.leftRig .inp_butt {
+  float: left;
+  width: 156px;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  background: #25292e;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+.leftRig .menu {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 14px;
+}
+#loginPopWin .leftRig {
+  width: 264px;
+  position: relative;
+}
+.thirdParty {
+  position: absolute;
+  left: 0;
+  top: -2px;
+  width: 264px;
+}
+.thirdParty .toptit {
+  width: 100%;
+  padding: 0 0 18px;
+  line-height: 18px;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.loginApp{
+	width: 36px;
+	height: 36px;
+	display: inline-block;
+	margin: 0px;
+	position: relative;
+}
+.qqapp{
+	
+	background: url(../images/qq-hover.png) no-repeat;
+}
+.wbapp{
+	background: url(../images/sine-hover.png) no-repeat;
+}
+.dbapp{
+	background: url(../images/doub-hover.png) no-repeat;
+}
+.tqqapp{
+	background: url(../images/tencen-sina-hover.png) no-repeat;
+}
+.qqapp:hover{
+	background: url(../images/qq_icon_on24_22.png) no-repeat;
+}
+.wbapp:hover{
+	background: url(../images/sina_icon_on24_22.png) no-repeat;
+}
+.dbapp:hover{
+	background: url(../images/db_icon_on24_22.png) no-repeat;
+}
+.tqqapp:hover{
+	background: url(../images/tqq_icon_on24_22.png) no-repeat;
+}

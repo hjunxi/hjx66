@@ -1,0 +1,246 @@
+
+.header-bottom {
+	height: 570px;
+	/* background: #25292e; */
+	position: relative;
+}
+
+.bottom-center {
+	width: 1000px;
+	height: 570px;
+	/* background: red; */
+	margin: 0px auto;
+}
+
+.nav {
+	width: 1000px;
+	height: 475px;
+	/* background: blue; */
+	position: absolute;
+	margin-top: 45px;
+}
+
+.nav img {
+	position: absolute;
+}
+
+.nav-bottom {
+	height: 405px;
+	/* background: #25292e; */
+}
+
+
+/* 弹性布局 */
+.nav-b {
+	position: relative;
+	width: 1000px;
+	height: 405px;
+	/* background: red; */
+	margin: 0px auto;
+	display: flex;
+
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-direction: column;
+}
+
+.item1 {
+	width: 317px;
+	height: 190px;
+	/* position: absolute; */
+}
+
+.item2 {
+	position: absolute;
+	width: 318px;
+	height: 403px;
+	left: 340px;
+	top: 0px;
+}
+
+.rq {
+	height: 110px;
+	/* background: #25292e; */
+	overflow: hidden;
+}
+
+.rq-top {
+	width: 1000px;
+	height: 110px;
+	/* background: red; */
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+.rq-c {
+	width: 1000px;
+	height: 59px;
+	/* background: red; */
+	margin: 0px auto;
+	overflow: hidden;
+	border-bottom: 1px solid #000;
+}
+
+.rq-c p {
+	font-size: 12px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.lp {
+	height: 732px;
+	/* background: #25292e */
+	;
+}
+
+.lp-top {
+	width: 1000px;
+	height: 732px;
+	/* background: red; */
+	margin: 0px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-direction: column;
+}
+
+.lp-a {
+
+	width: 313px;
+	height: 356px;
+	/* border: 1px solid #000; */
+	position: relative;
+}
+
+.lp-yc {
+	width: 313px;
+	height: 316px;
+	background: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	display: none;
+}
+
+.yc-a {
+	width: 313px;
+	height: 30px;
+	/* background: pink; */
+}
+
+.yc-a h1 {
+	font-size: 24px;
+	color: blue;
+}
+
+.yc-b {
+	width: 313px;
+	height: 80px;
+	/* background: #2d2; */
+}
+
+.yc-b h3 {
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	line-height: 35px;
+	margin-top: 95px;
+}
+
+.yc-b p {
+	font-size: 13px;
+	color: white;
+	text-align: center;
+}
+
+.lp-a:hover .lp-yc {
+	display: block;
+}
+
+.lp-t {
+	width: 313px;
+	height: 316px;
+	/* background: blue; */
+}
+
+.lp-t img {
+	width: 313px;
+	height: 316px;
+}
+
+.lp-b {
+	width: 313px;
+	height: 40px;
+	/* background: pink; */
+}
+
+.lp-l {
+	width: 150px;
+	height: 40px;
+	/* background: red; */
+	float: left;
+}
+
+.lp-l img {
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+
+.lp-l p {
+	font-size: 15px;
+	color: #000;
+	float: left;
+	line-height: 40px;
+}
+
+.lp-r {
+	width: 35px;
+	height: 40px;
+	/* background: #2d2; */
+	float: right;
+}
+
+.lp-r img {
+	float: right;
+	margin-top: -28px;
+}
+
+.lp-r p {
+	line-height: 40px;
+	color: #000;
+}
+
+.more {
+	height: 300px;
+	/* background: #000; */
+	overflow: hidden;
+}
+
+.more-top {
+	width: 1000px;
+	height: 300px;
+	/* background: red; */
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+.more-center {
+	width: 148px;
+	height: 40px;
+	margin: 150px auto;
+	position: relative;
+	/* background: #000; */
+}
+
+.more-bottom {
+	position: absolute;
+	left: 0;
+	top: 0px;
+	display: none;
+}
+
+.more-center:hover .more-bottom {
+	display: block;
+}
+

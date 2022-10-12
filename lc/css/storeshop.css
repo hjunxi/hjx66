@@ -1,0 +1,311 @@
+.dtp {
+	height: 320px;
+}
+
+.dtp-a {
+	width: 1000px;
+	height: 320px;
+	margin: 0px auto;
+}
+
+.js {
+	height: 120px;
+	/* background: #3d3; */
+	overflow: hidden;
+}
+
+.js-a {
+	width: 1000px;
+	height: 120px;
+	margin: 0px auto;
+	/* background: blue; */
+	overflow: hidden;
+}
+
+.js-b {
+	width: 1000px;
+	height: 50px;
+	/* background: red; */
+	margin-top: 50px;
+}
+
+.js-c {
+	width: 350px;
+	height: 50px;
+	/* background: white; */
+	margin: 0px auto;
+}
+
+.js-d>li {
+	float: left;
+	text-align: center;
+}
+
+.js-d>li span {
+	color: #000;
+	margin-left: 50px;
+}
+
+.js-d>li p {
+	color: #666666;
+	margin-left: 50px;
+}
+
+.js-d>li p:hover {
+	color: blue;
+}
+
+.sh {
+	height: 350px;
+	margin: 0px auto;
+	/* background: #2d2; */
+	/* overflow: hidden; */
+}
+
+.sh-a {
+	width: 1000px;
+	height: 350px;
+	margin: 0px auto;
+	/* background: blue; */
+}
+
+.sh-top {
+	width: 1000px;
+	height: 25px;
+	/* background: pink; */
+	border-bottom: 1px solid #000;
+}
+
+.sh-bottom {
+	width: 1000px;
+	height: 250px;
+	/* background: red; */
+	margin-top: 40px;
+}
+
+.sh-bottom>ul li {
+	margin-top: 20px;
+}
+
+.sh-bottom>ul li p {
+	float: left;
+}
+
+.sh-bottom>ul li input {
+	width: 200px;
+	height: 25px;
+	outline: none;
+}
+
+.bc {
+	display: inline-block;
+	width: 94px;
+	height: 25px;
+	background: #7fa6c5;
+	line-height: 25px;
+	text-align: center;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 100;
+	border: none;
+	cursor: pointer;
+	margin-left: 80px;
+}
+
+.dd {
+	height: 220px;
+	margin: 0px auto;
+	/* background: #2d2; */
+	/* overflow: hidden; */
+}
+
+.dd-a {
+	width: 1000px;
+	height: 220px;
+	margin: 0px auto;
+	/* background: blue; */
+}
+
+.dd-top {
+	width: 1000px;
+	height: 25px;
+	/* background: pink; */
+	border-bottom: 1px solid #000;
+}
+
+.dd-b {
+	width: 1000px;
+	height: 100px;
+	border-bottom: 1px solid #000;
+}
+
+.dd-bottom>p {
+	float: left;
+	margin-top: 20px;
+	text-indent: 2em;
+}
+
+.dd-bottom>input {
+	width: 500px;
+	height: 25px;
+	border: 0px;
+	outline: none;
+	background: #cccccc;
+	margin-top: 20px;
+}
+
+.djq {
+	height: 350px;
+	/* background: #2d2; */
+}
+
+.djq-a {
+	width: 1000px;
+	height: 350px;
+	/* background: blue; */
+	margin: 0px auto;
+}
+
+.djq-top {
+	width: 700px;
+	height: 200px;
+	/* background: red; */
+	float: left;
+}
+
+.djq-top>ul li {
+	float: left;
+	margin-left: 20px;
+}
+
+.djq-top>ul li a {
+	font-size: 12px;
+	color: #000;
+}
+
+.jh-a {
+	width: 300px;
+	height: 25px;
+	border: 2px solid #cccccc;
+	outline: none;
+}
+
+.jh-b {
+	display: inline-block;
+	width: 94px;
+	height: 25px;
+	background: #7fa6c5;
+	line-height: 25px;
+	text-align: center;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 100;
+	border: none;
+	cursor: pointer;
+}
+
+.djq-right {
+	width: 200px;
+	height: 350px;
+	/* background: pink; */
+	float: right;
+}
+
+.djq-right p {
+	line-height: 45px;
+}
+
+.hd-a {
+	font-size: 18px;
+}
+
+.hd-a i {
+	font-size: 20px;
+	color: blue;
+}
+
+.hd-b {
+	font-size: 20px;
+	margin-left: 90px;
+	text-decoration: line-through;
+}
+
+.hd-c {
+	font-size: 12px;
+	color: red;
+	margin-left: 60px;
+}
+
+.djq-bottom {
+	width: 600px;
+	height: 100px;
+	/* background: #dddddd; */
+	float: left;
+	margin-top: 30px;
+}
+
+.djq-c {
+	width: 150px;
+	height: 100px;
+	/* background: white; */
+	float: right;
+}
+
+.djq-c>p {
+	text-align: center;
+	color: #666666;
+}
+
+.djq-c>img {
+	margin-top: 20px;
+	margin-left: 45px;
+}
+
+.djq-c>input {
+	margin-top: 40px;
+	margin-left: 30px;
+	position: absolute;
+	border-radius: 50px;
+}
+
+.zf {
+	height: 200px;
+	/* background: #3d3; */
+	overflow: hidden;
+}
+
+.zf-a {
+	width: 1000px;
+	height: 200px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+.zf-b {
+	width: 1000px;
+	height: 100px;
+	margin-top: 50px;
+	/* background: red; */
+}
+
+.zf-b>p {
+	font-size: 12px;
+	color: blue;
+	text-align: center;
+}
+
+.zf-b>input {
+	display: inline-block;
+	width: 150px;
+	height: 25px;
+	background: #7fa6c5;
+	line-height: 25px;
+	text-align: center;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 100;
+	border: none;
+	cursor: pointer;
+	margin-left: 450px;
+	margin-top: 30px;
+}
